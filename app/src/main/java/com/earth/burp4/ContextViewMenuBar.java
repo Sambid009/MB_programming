@@ -50,10 +50,10 @@ public class ContextViewMenuBar extends AppCompatActivity {
     public boolean onContextItemSelected(@NonNull MenuItem item) {
         int id = item.getItemId();
         if (id == R.id.call) {
-            Toast.makeText(this, "calling", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "calling clicked", Toast.LENGTH_SHORT).show();
         }
         if (id == R.id.message) {
-            Toast.makeText(this, "Messaging", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Messaging clicked", Toast.LENGTH_SHORT).show();
         }
 
         return super.onContextItemSelected(item);
