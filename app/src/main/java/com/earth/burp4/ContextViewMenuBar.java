@@ -53,7 +53,7 @@ public class ContextViewMenuBar extends AppCompatActivity {
             Toast.makeText(this, "calling clicked", Toast.LENGTH_SHORT).show();
         }
         if (id == R.id.message) {
-            Toast.makeText(this, "Messaging clicked", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Messaging clickeddd", Toast.LENGTH_SHORT).show();
         }
 
         return super.onContextItemSelected(item);
