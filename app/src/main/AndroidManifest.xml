@@ -20,10 +20,10 @@
 <!--            android:exported="false"-->
 <!--            android:theme="@style/Theme.Burp4" />-->
         <activity
-            android:name=".MainActivity"
+            android:name=".PopupMenuBar"
             android:exported="false" />
         <activity
-            android:name=".PopupMenuBar"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

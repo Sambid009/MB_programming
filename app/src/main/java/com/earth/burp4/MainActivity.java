@@ -23,7 +23,7 @@ import androidx.fragment.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Button btnNews,btnSports,btnScience,btnBusiness;
+    Button btnNews,btnSports,btnScience,btnBusiness;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,94 +36,96 @@ public class MainActivity extends AppCompatActivity {
             return insets;
         });
 
-//
-//        btnNews = findViewById(R.id.btnNews);
-//        btnSports = findViewById(R.id.btnSports);
-//        btnScience = findViewById(R.id.btnScience);
-//        btnBusiness = findViewById(R.id.btnBusiness);
+
+        btnNews = findViewById(R.id.btnNews);
+        btnSports = findViewById(R.id.btnSports);
+        btnScience = findViewById(R.id.btnScience);
+        btnBusiness = findViewById(R.id.btnBusiness);
 
 
 
         //for button News
-//        btnNews.setOnClickListener(new View.OnClickListener() {
-//
-//            public void onClick(View v) {
-//                FragmentManager fragmentManager = getSupportFragmentManager();
-//
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.fragmentContainerView, NewsFragment.class,null)
-//                        .setReorderingAllowed(true)
-//                        .addToBackStack(null)
-//
-//                        .commit();
-//
-//
-//            }
-//
-//
-//
-//        });
+        btnNews.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, NewsFragment.class,null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack(null)
+
+                        .commit();
+
+
+            }
+
+
+
+        });
 
         //for button Sports
-//        btnSports.setOnClickListener(new View.OnClickListener() {
-//
-//            public void onClick(View v) {
-//                FragmentManager fragmentManager = getSupportFragmentManager();
-//
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.fragmentContainerView, SportsFragment.class,null)
-//                        .setReorderingAllowed(true)
-//                        .addToBackStack(null)
-//
-//                        .commit();
-//
-//
-//            }
-//
-//
-//
-//        });
+        btnSports.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, SportsFragment.class,null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack(null)
+
+                        .commit();
+
+
+            }
+
+
+
+        });
 
         //for button Science
-//        btnScience.setOnClickListener(new View.OnClickListener() {
-//
-//            public void onClick(View v) {
-//                FragmentManager fragmentManager = getSupportFragmentManager();
-//
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.fragmentContainerView, ScienceFragment.class,null)
-//                        .setReorderingAllowed(true)
-//                        .addToBackStack(null)
-//
-//                        .commit();
-//
-//
-//            }
-//
-//
-//
-//        });
+        btnScience.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, ScienceFragment.class,null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack(null)
+
+                        .commit();
+
+
+            }
+
+
+
+        });
 
         //for btn business
-//        btnBusiness.setOnClickListener(new View.OnClickListener() {
-//
-//            public void onClick(View v) {
-//                FragmentManager fragmentManager = getSupportFragmentManager();
-//
-//                fragmentManager.beginTransaction()
-//                        .replace(R.id.fragmentContainerView, BusinessFragment.class,null)
-//                        .setReorderingAllowed(true)
-//                        .addToBackStack(null)
-//
-//                        .commit();
-//
-//
-//            }
-//
-//        });
+        btnBusiness.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                FragmentManager fragmentManager = getSupportFragmentManager();
+
+                fragmentManager.beginTransaction()
+                        .replace(R.id.fragmentContainerView, BusinessFragment.class,null)
+                        .setReorderingAllowed(true)
+                        .addToBackStack(null)
+
+                        .commit();
+
+
+            }
+
+        });
 
 
         }//end of method onCreate
+
+    //------------------------for options menu-------------------------------------
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
