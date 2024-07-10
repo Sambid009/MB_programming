@@ -23,7 +23,7 @@ import androidx.fragment.app.FragmentManager;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnNews,btnSports,btnScience,btnBusiness;
+    Button btnNews,btnSports,btnScience,btnBusiness,btnAlert;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +41,14 @@ public class MainActivity extends AppCompatActivity {
         btnSports = findViewById(R.id.btnSports);
         btnScience = findViewById(R.id.btnScience);
         btnBusiness = findViewById(R.id.btnBusiness);
+        btnAlert = findViewById(R.id.btnAlert);
+
+        btnAlert.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
 
 
 
@@ -121,6 +129,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+
 
 
         }//end of method onCreate

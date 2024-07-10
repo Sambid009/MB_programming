@@ -13,17 +13,19 @@
         android:theme="@style/Theme.Burp4"
         tools:targetApi="31">
         <activity
-            android:name=".ContextViewMenuBar"
+            android:name=".MainActivity"
             android:exported="false" />
-<!--        <activity-->
-<!--            android:name=".ContextMenuBar"-->
-<!--            android:exported="false"-->
-<!--            android:theme="@style/Theme.Burp4" />-->
+        <activity
+            android:name=".ContextViewMenuBar"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ContextMenuBar" -->
+        <!-- android:exported="false" -->
+        <!-- android:theme="@style/Theme.Burp4" /> -->
         <activity
             android:name=".PopupMenuBar"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".DialogDemo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
