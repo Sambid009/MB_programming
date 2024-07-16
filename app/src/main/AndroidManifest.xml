@@ -16,6 +16,9 @@
             android:name=".MainActivity"
             android:exported="false" />
         <activity
+            android:name=".DialogDemo"
+            android:exported="false" />
+        <activity
             android:name=".ContextViewMenuBar"
             android:exported="false" /> <!-- <activity -->
         <!-- android:name=".ContextMenuBar" -->
@@ -25,7 +28,7 @@
             android:name=".PopupMenuBar"
             android:exported="false" />
         <activity
-            android:name=".DialogDemo"
+            android:name=".DialogDemo2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

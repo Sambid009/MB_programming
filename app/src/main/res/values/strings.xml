@@ -56,4 +56,5 @@
     </string>
     <string name="context_menu_example">Context Menu Example</string>
     <string name="popup_menu_bar_example">PopUp Menu Bar Example</string>
+    <string name="custom_dialog_string">Hello This is Custom Dialog Box</string>
 </resources>
